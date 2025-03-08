@@ -2,12 +2,12 @@ import React from 'react';
 import { Scissors, Sparkles, Heart, Wand2, Palette } from 'lucide-react';
 
 const services = [
-  { name: 'Парикмахерские услуги', icon: Scissors },
-  { name: 'Маникюр', icon: Sparkles },
-  { name: 'Ресницы', icon: Heart },
-  { name: 'Шугаринг на все зоны', icon: Wand2 },
-  { name: 'Перманент', icon: Palette },
-  { name: 'Макияж коррекция бровей', icon: Sparkles },
+  { name: 'Парикмахерские услуги', price: 'от 1500 тг и выше', icon: Scissors },
+  { name: 'Маникюр гель', price: 'от 3000 тг', icon: Sparkles },
+  { name: 'Ресницы', price: 'от 3000 тг', icon: Heart },
+  { name: 'Шугаринг на все зоны', price: 'Уточняйте у мастера', icon: Wand2 },
+  { name: 'Перманент', price: 'Уточняйте у мастера', icon: Palette },
+  { name: 'Макияж, коррекция бровей', price: 'Уточняйте у мастера', icon: Sparkles },
 ];
 
 export default function Services() {
@@ -24,6 +24,7 @@ export default function Services() {
               <service.icon className="w-8 h-8 text-rose-600" />
               <h3 className="text-lg font-semibold text-gray-800">{service.name}</h3>
             </div>
+            <p className="mt-2 text-gray-600">{service.price}</p>
           </div>
         ))}
       </div>
