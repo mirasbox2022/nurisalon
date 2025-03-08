@@ -17,17 +17,13 @@ export default function Models() {
           </h3>
           
           <p className="text-gray-600 mb-6">
-            Хотите обновить свой образ совершенно бесплатно? Мы приглашаем вас стать моделью для наших талантливых стилистов! Это отличная возможность получить профессиональную стрижку без затрат.
+            Хотите обновить свой образ совершенно бесплатно? Мы приглашаем вас стать моделью для наших учеников! Это отличная возможность получить стрижку без затрат.
           </p>
           
           <div className="space-y-4 text-left">
             <div className="flex items-center space-x-2">
               <Star className="w-5 h-5 text-rose-600" />
-              <p>Все работы выполняются опытными мастерами</p>
-            </div>
-            <div className="flex items-center space-x-2">
-              <Star className="w-5 h-5 text-rose-600" />
-              <p>Используем только профессиональную косметику</p>
+              <p>Все работы выполняются стажерами учениками</p>
             </div>
             <div className="flex items-center space-x-2">
               <Star className="w-5 h-5 text-rose-600" />
