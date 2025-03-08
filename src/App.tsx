@@ -4,6 +4,7 @@ import Home from './components/Home';
 import Services from './components/Services';
 import Contact from './components/Contact';
 import Models from './components/Models';
+import HairdresserCourse from './components/HairdresserCourse';
 import './index.css';
 
 function App() {
@@ -17,15 +18,17 @@ function App() {
         return <Services />;
       case 'Контакты':
         return <Contact />;
-      case 'Модели для стрижки':
+      case 'Модели':
         return <Models />;
+      case 'Курс на Парикмахера':
+        return <HairdresserCourse />;
       default:
         return <Home />;
     }
   };
 
   return (
-    <div className="min-h-screen bg-rose-50">
+    <div>
       <Navbar setCurrentPage={setCurrentPage} />
       {renderPage()}
     </div>
