@@ -18,7 +18,7 @@ function App() {
         return <Services />;
       case 'Контакты':
         return <Contact />;
-      case 'Модели':
+      case 'Модели для стрижки':
         return <Models />;
       case 'Курс на Парикмахера':
         return <HairdresserCourse />;
