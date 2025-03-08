@@ -6,7 +6,7 @@ const HairdresserCourse = () => {
     <div className="min-h-screen pt-16 bg-gradient-to-b from-rose-50 to-white">
       <div className="relative h-[50vh] overflow-hidden">
         <img
-          src="/hairdresser-course.jpg"
+          src="/nurisalon.png"
           alt="Парикмахерский курс"
           className="w-full h-full object-cover"
         />
@@ -20,9 +20,9 @@ const HairdresserCourse = () => {
       <div className="p-6 max-w-4xl mx-auto">
         <h2 className="text-2xl font-bold text-gray-900 mb-4">Чему вы научитесь:</h2>
         <ul className="space-y-3 text-gray-700">
-          <li className="flex items-center gap-2"><Scissors className="text-rose-600" /> Основы парикмахерского дела</li>
+          <li className="flex items-center gap-2"><Sparkles className="text-rose-600" /> Основы парикмахерского дела</li>
           <li className="flex items-center gap-2"><Sparkles className="text-rose-600" /> Техники окрашивания</li>
-          <li className="flex items-center gap-2">🧴 Уход за волосами</li>
+          <li className="flex items-center gap-2"><Sparkles className="text-rose-600" /> Уход за волосами</li>
         </ul>
       </div>
     </div>
