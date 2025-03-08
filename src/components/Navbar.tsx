@@ -12,7 +12,7 @@ export default function Navbar({ setCurrentPage }: NavbarProps) {
     setIsOpen(!isOpen);
   };
 
-  const menuItems = ['Главная', 'Услуги', 'Контакты', 'Модели для стрижки'];
+  const menuItems = ['Главная', 'Услуги', 'Контакты', 'Модели для стрижки', 'Курс на Парикмахера'];
 
   return (
     <nav className="fixed top-0 left-0 w-full bg-rose-50 shadow-md z-50">
