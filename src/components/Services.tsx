@@ -7,8 +7,7 @@ const services = [
   { name: 'Ресницы', icon: Heart },
   { name: 'Шугаринг на все зоны', icon: Wand2 },
   { name: 'Перманент', icon: Palette },
-  { name: 'Макияж', icon: Sparkles },
-  { name: 'Коррекция бровей', icon: Wand2 },
+  { name: 'Макияж коррекция бровей', icon: Sparkles },
 ];
 
 export default function Services() {
